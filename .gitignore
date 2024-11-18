@@ -3,3 +3,29 @@
 **/node_modules
 **/build
 **/npm-debug.log
+
+#Git ignore for microservides-frontend-react folder 
+
+# Logs
+/microservices-frontend-react/logs
+/microservices-frontend-react/*.log
+/microservices-frontend-react/npm-debug.log*
+/microservices-frontend-react/yarn-debug.log*
+/microservices-frontend-react/yarn-error.log*
+/microservices-frontend-react/pnpm-debug.log*
+/microservices-frontend-react/lerna-debug.log*
+
+/microservices-frontend-react/dist
+/microservices-frontend-react/dist-ssr
+/microservices-frontend-react/*.local
+
+# Editor directories and files
+/microservices-frontend-react/.vscode/*
+/microservices-frontend-react/!.vscode/extensions.json
+/microservices-frontend-react/.idea
+/microservices-frontend-react/.DS_Store
+/microservices-frontend-react/*.suo
+/microservices-frontend-react/*.ntvs*
+/microservices-frontend-react/*.njsproj
+/microservices-frontend-react/*.sln
+/microservices-frontend-react/*.sw?
